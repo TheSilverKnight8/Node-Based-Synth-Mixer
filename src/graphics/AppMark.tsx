@@ -1,0 +1,11 @@
+/** The app's icon: a sine wave patched between two jacks, in the Shop Manual colors. Same drawing as public/favicon.svg. */
+export function AppMark({ size = 32, className = '' }: { size?: number; className?: string }) {
+  return (
+    <svg viewBox="0 0 64 64" width={size} height={size} className={className} aria-hidden>
+      <rect width="64" height="64" rx="12" fill="#002657" />
+      <path d="M17.00 32.00 L17.50 30.75 L18.00 29.51 L18.50 28.29 L19.00 27.12 L19.50 26.00 L20.00 24.95 L20.50 23.97 L21.00 23.08 L21.50 22.29 L22.00 21.61 L22.50 21.04 L23.00 20.59 L23.50 20.26 L24.00 20.07 L24.50 20.00 L25.00 20.07 L25.50 20.26 L26.00 20.59 L26.50 21.04 L27.00 21.61 L27.50 22.29 L28.00 23.08 L28.50 23.97 L29.00 24.95 L29.50 26.00 L30.00 27.12 L30.50 28.29 L31.00 29.51 L31.50 30.75 L32.00 32.00 L32.50 33.25 L33.00 34.49 L33.50 35.71 L34.00 36.88 L34.50 38.00 L35.00 39.05 L35.50 40.03 L36.00 40.92 L36.50 41.71 L37.00 42.39 L37.50 42.96 L38.00 43.41 L38.50 43.74 L39.00 43.93 L39.50 44.00 L40.00 43.93 L40.50 43.74 L41.00 43.41 L41.50 42.96 L42.00 42.39 L42.50 41.71 L43.00 40.92 L43.50 40.03 L44.00 39.05 L44.50 38.00 L45.00 36.88 L45.50 35.71 L46.00 34.49 L46.50 33.25 L47.00 32.00" fill="none" stroke="#fc3f3f" strokeWidth="5" strokeLinejoin="round" />
+      <circle cx="11.5" cy="32" r="4.5" fill="none" stroke="#faeeda" strokeWidth="3.5" />
+      <circle cx="52.5" cy="32" r="4.5" fill="none" stroke="#faeeda" strokeWidth="3.5" />
+    </svg>
+  );
+}
